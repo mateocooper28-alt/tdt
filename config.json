@@ -1,0 +1,39 @@
+{
+  "titulo": "TDT España en abierto",
+  "descripcion": "Canales de televisión en abierto y gratuitos oficiales, listos para Hot IPTV y cualquier reproductor IPTV.",
+  "fuentes": [
+    { "nombre": "TDTChannels", "url": "https://www.tdtchannels.com/lists/tv.m3u8" },
+    { "nombre": "Canales extra", "archivo": "canales-extra.m3u" }
+  ],
+  "epg": ["https://www.tdtchannels.com/epg/TV.xml.gz"],
+  "minimoCanales": 50,
+  "soloGrupos": [],
+  "excluirGrupos": ["Eventuales"],
+  "excluirCanales": [],
+  "ordenGrupos": [
+    "Generalistas",
+    "Informativos",
+    "Deportivos",
+    "Infantiles",
+    "Musicales"
+  ],
+  "mantenerAlternativas": false,
+  "listasPorGrupo": true,
+  "plataformas": [
+    { "nombre": "Atresplayer", "tipo": "Gratis", "descripcion": "Antena 3, laSexta, Neox, Nova, Mega y Atreseries en directo.", "web": "https://www.atresplayer.com" },
+    { "nombre": "Mediaset Infinity", "tipo": "Gratis", "descripcion": "Telecinco, Cuatro, FDF, Energy, Divinity, BeMad y Boing en directo.", "web": "https://www.mediasetinfinity.es" },
+    { "nombre": "RTVE Play", "tipo": "Gratis", "descripcion": "Todos los canales de RTVE, series y programas a la carta.", "web": "https://www.rtve.es/play/" },
+    { "nombre": "Samsung TV Plus", "tipo": "Gratis", "descripcion": "Cientos de canales gratuitos. Viene instalada en los TV Samsung.", "web": "" },
+    { "nombre": "Pluto TV", "tipo": "Gratis", "descripcion": "Canales temáticos gratuitos con anuncios.", "web": "https://pluto.tv/es" },
+    { "nombre": "Rakuten TV", "tipo": "Gratis", "descripcion": "Canales y películas gratuitos con anuncios.", "web": "https://www.rakuten.tv/es" },
+    { "nombre": "Netflix", "tipo": "Pago", "descripcion": "Series, películas y documentales.", "web": "https://www.netflix.com" },
+    { "nombre": "HBO Max", "tipo": "Pago", "descripcion": "Series de HBO, Warner Bros., DC y más.", "web": "https://www.hbomax.com" },
+    { "nombre": "Disney+", "tipo": "Pago", "descripcion": "Disney, Pixar, Marvel, Star Wars y National Geographic.", "web": "https://www.disneyplus.com" },
+    { "nombre": "Prime Video", "tipo": "Pago", "descripcion": "Series y películas de Amazon; incluida con Amazon Prime.", "web": "https://www.primevideo.com" },
+    { "nombre": "Movistar Plus+", "tipo": "Pago", "descripcion": "Fútbol, deportes, cine y canales de pago.", "web": "https://www.movistarplus.es" },
+    { "nombre": "DAZN", "tipo": "Pago", "descripcion": "Fútbol, Fórmula 1, MotoGP, baloncesto y más deportes.", "web": "https://www.dazn.com/es-ES" },
+    { "nombre": "Filmin", "tipo": "Pago", "descripcion": "Cine independiente, clásico y series europeas.", "web": "https://www.filmin.es" },
+    { "nombre": "SkyShowtime", "tipo": "Pago", "descripcion": "Series y películas de Paramount, Universal y Sky.", "web": "https://www.skyshowtime.com" },
+    { "nombre": "Apple TV+", "tipo": "Pago", "descripcion": "Series y películas originales de Apple.", "web": "https://tv.apple.com" }
+  ]
+}
