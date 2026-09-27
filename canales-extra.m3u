@@ -1,0 +1,12 @@
+#EXTM3U
+# ---------------------------------------------------------------------------
+# Canales gratuitos oficiales que quieras añadir a mano.
+# Solo emisiones públicas y en abierto publicadas por la propia cadena.
+#
+# Formato (quita la almohadilla "#" del principio de las dos líneas):
+#
+# #EXTINF:-1 tvg-id="IdDeLaGuia" tvg-logo="https://…/logo.png" group-title="Mi grupo",Nombre del canal
+# https://…/directo/index.m3u8
+#
+# tvg-id es opcional: sirve para que el canal tenga guía EPG.
+# ---------------------------------------------------------------------------
